@@ -459,3 +459,44 @@ a.sch_lnk:hover{
   }
   
 }
+
+@media (prefers-color-scheme: dark) {
+  /* Dark theme styles go here */
+  .panel_det{
+    background-color: black;
+    color: #eeeeee;
+  }
+  body{
+    background-color: black;
+  }
+  .sch_card_color_0{
+    background-color: #003399;
+    color: #eeeeee;
+  }
+  .sch_card_color_1{
+   background-color: #111111; 
+   color: #eeeeee;
+  }
+  /* .sch_card_panel_attendee{
+    border-color: lightblue;
+  } */
+  .selected_panel{
+    background-color: lightgreen;
+    color: black;
+  }
+  
+  .panel_det_myschedule{
+    border:2px solid #eeeeee;
+    background-color: #666666
+  }
+  .panel_det_myschedule:hover{
+    cursor:pointer;
+    background-color: lightblue;
+    color:black;
+  }
+  .close_btn{
+    border:2px solid #eeeeee;
+    background-color: #666666
+  }
+
+}
