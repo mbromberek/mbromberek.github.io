@@ -183,7 +183,14 @@
     </div>
 <script>
     JavaScript:initialize();
-
+    
 </script>
+<!-- Register the app's service worker. -->
+<script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("/js/sw.js");
+  }
+</script>
+
 </body>
 </html>
