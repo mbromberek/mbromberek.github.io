@@ -1,0 +1,20 @@
+{
+  "name": "AI Schedule",
+  "short_name": "AI Schedule",
+  "description": "Schedule of panels",
+  "start_url": "/",
+  "theme_color": "#1F4E78",
+  "background_color": "#1F4E78",
+  "display": "standalone",
+  "icons": [
+        {
+      "src": "media/favicon.ico",
+      "sizes": "48x48"
+    },
+    {
+      "src": "media/favicon.ico",
+      "sizes": "72x72 96x96",
+      "purpose": "maskable"
+    }
+  ]
+}
