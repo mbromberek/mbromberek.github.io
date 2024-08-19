@@ -9,7 +9,7 @@ const time_breaks = ['5:00am','6:00am','7:00am','8:00am','9:00am','10:00am','11:
 const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 const MIN_DESKTOP_WIDTH = 700;
 const PANEL_COLOR = {"guest":"darkorange", "staff":"green", "attendee":"darkblue", "convention":"darkred","family":"purple"};
-var cookie_expire_days = 1;
+var cookie_expire_days = 60;
 const sch_cookie_nm = 'AnimeIowaMySchedule';
 
 function initialize(){
