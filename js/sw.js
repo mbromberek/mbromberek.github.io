@@ -4,7 +4,7 @@ Second version number is for major updates
 Third number is for minor and bug fix updates
 Fourth number is for json schedule updates
 */
-const VERSION = "v0.0.0.2";
+const VERSION = "v0.0.1.2";
 const CACHE_NAME = `animeiowa_schedule_${VERSION}`;
 
 const APP_STATIC_RESOURCES = [
