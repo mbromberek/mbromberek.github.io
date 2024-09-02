@@ -4,7 +4,7 @@ Second version number is for major updates
 Third number is for minor and bug fix updates
 Fourth number is for json schedule updates
 */
-const VERSION = "v0.0.1.2";
+const VERSION = "v0.0.1.5";
 const CACHE_NAME = `animeiowa_schedule_${VERSION}`;
 
 const APP_STATIC_RESOURCES = [
@@ -13,8 +13,8 @@ const APP_STATIC_RESOURCES = [
   "/css/schedule.css",
   "/js/schedule.js",
   "/scheduled.json",
-  "/data/schedule_ai2023.json",
-  "/media/AI_logo_small_2.png",
+  // "/data/schedule_ai2023.json",
+  // "/media/AI_logo_small_2.png",
   "/media/favicon.ico"
 ];
 
@@ -45,6 +45,7 @@ self.addEventListener("activate", (event) => {
 });
 
 self.addEventListener("fetch", (event) => {
+  console.log("Fetch request for:", event.request.url);
   // when seeking an HTML page
   if (event.request.mode === "navigate") {
     // Return to the index.html page
