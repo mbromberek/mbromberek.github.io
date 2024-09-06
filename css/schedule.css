@@ -391,12 +391,11 @@ a.sch_lnk:hover{
     right:0px;
     top:0px;
     /* width:calc((100% - 32px)); */
-    width:calc((96% - 32px));
+    width:calc((92% - 32px));
     background-color: white;
-    height:94%;
+    height:92%;
     padding-top:5px;
-    margin:2%;
-    margin: 2% 2% 2% 1%
+    margin: 4% 4% 3% 1%
     /* width:88% */
 
   }
